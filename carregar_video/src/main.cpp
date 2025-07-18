@@ -59,10 +59,29 @@ int main(int argc, char *argv[])
                 gst_print("Terminou o vídeo");
                 terminate = TRUE;
                 break;
+            case GST_MESSAGE_TAG:
+                // Normalmente ignoramos, mas podemos imprimir se quisermos
+                // g_print("Metadados (TAG) encontrados no stream.\n");
+                break; // Não termina o loop
+
+            case GST_MESSAGE_QOS:
+                // Apenas informa que a qualidade pode estar sendo afetada
+                g_print("Mensagem de Qualidade de Serviço (QOS): sistema pode estar lento ou descartando dados.\n");
+                break; // Não termina o loop
+
+            case GST_MESSAGE_ELEMENT:
+                // Informa qual elemento enviou uma mensagem personalizada
+                g_print("Mensagem de Elemento recebida de: %s\n", GST_OBJECT_NAME(msg->src));
+                // Para ver o conteúdo real, precisaríamos de um código mais avançado
+                // para "parsear" a estrutura da mensagem.
+                break; // Não termina o loop
+            
             default:
-                g_print("Alguma mensagem desconhecida foi gerada.\n");
+                // Imprime qualquer outra mensagem que não tratamos explicitamente
+                g_print("Mensagem não tratada do bus: %s\n",
+                        gst_message_type_get_name(GST_MESSAGE_TYPE(msg)));
                 break;
-            }
+        }
             gst_message_unref(msg);
         }
     } while (!terminate);

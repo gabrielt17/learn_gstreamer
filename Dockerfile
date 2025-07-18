@@ -15,10 +15,17 @@ ARG USERNAME=devuser
 RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo git wget curl nano bash-completion build-essential cmake pkg-config gdb \
     cppcheck valgrind gstreamer1.0-tools libgstreamer1.0-dev \
-    libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-good gstreamer1.0-plugins-bad \
+    libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-good \
     gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-vaapi mesa-va-drivers \
     gstreamer1.0-gl libgtk-3-dev libx11-dev libwayland-dev x11-apps pipewire \
     libspa-0.2-modules gstreamer1.0-pipewire \
+    # --- PACOTES PARA WEBRTCBIN ---
+    # NOVO: Pacote de runtime que contém o webrtcbin.so
+    gstreamer1.0-plugins-bad \
+    # Pacote de desenvolvimento que contém os headers .h
+    libgstreamer-plugins-bad1.0-dev \
+    libsrtp2-dev \
+    libglib2.0-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Script inteligente para criar ou modificar o usuário e grupo
