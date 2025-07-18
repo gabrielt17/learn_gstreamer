@@ -1,0 +1,31 @@
+# .devcontainer/docker-compose.yml
+# VERSÃO CORRIGIDA
+version: '3.8'
+
+services:
+  app:
+    build:
+      # O 'context' define a pasta raiz para o build.
+      # '..' significa a pasta pai da atual, ou seja, a raiz do seu projeto.
+      context: ..
+      # O 'dockerfile' agora aponta para o arquivo na raiz do contexto, que é o correto.
+      dockerfile: Dockerfile 
+    
+    volumes:
+      - ..:/workspaces/meu-projeto:cached
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      # Correção: Usa o UID do host dinamicamente, com 1000 como padrão
+      - ${XDG_RUNTIME_DIR}/pipewire-0:/run/user/${UID:-1000}/pipewire-0
+
+    environment:
+      # ...
+      - PIPEWIRE_RUNTIME_DIR=/run/user/${UID:-1000}
+      # Reative esta linha
+      - GST_VAAPI_ALL_DRIVERS=1
+      # Adicione esta linha para debug específico do plugin vaapi
+      - GST_DEBUG=vaapi:5
+      
+    devices:
+      - /dev/dri:/dev/dri
+
+    command: sleep infinity

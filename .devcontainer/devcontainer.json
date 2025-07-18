@@ -1,0 +1,31 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "GStreamer C++ (Ubuntu 24.04)",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspaces/meu-projeto",
+
+    
+
+    // Define o usuário que o VSCode usará para se conectar ao contêiner
+    "remoteUser": "devuser",
+
+    // Recomenda extensões úteis do VSCode para serem instaladas no contêiner
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools",
+                "ms-azuretools.vscode-docker",
+                "mutantdino.resourcemonitor"
+            ]
+        }
+    },
+
+    
+
+    // Executa um comando após a criação do contêiner.
+    // Útil para configurar permissões ou outras tarefas iniciais.
+    "postCreateCommand": "sudo chown -R $(whoami) /workspaces/meu-projeto"
+}

@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    g_object_set(pipeline, "uri", "file:///workspaces/learn_gstreamer/carregar_video/walk_pretender.mp4", NULL);
+    g_object_set(pipeline, "uri", "file:///workspaces/meu-projeto/carregar_video/walk_pretender.mp4", NULL);
 
     GstStateChangeReturn ret;
 
