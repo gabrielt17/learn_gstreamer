@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -Wall -Wextra -Wshadow -Wconversion -Wmissing-prototypes -Wparentheses -Wno-padded -Wno-unused-macros -Wno-format-nonliteral -Wno-cast-qual -pedantic-errors -fvisibility=hidden -rdynamic "CMakeFiles/civetweb-c-executable.dir/main.c.o" -o civetweb  libcivetweb.a /usr/lib/x86_64-linux-gnu/librt.a -ldl 

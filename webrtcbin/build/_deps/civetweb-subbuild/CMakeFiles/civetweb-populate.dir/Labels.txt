@@ -1,0 +1,14 @@
+# Target labels
+ civetweb-populate
+# Source files and their labels
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/CMakeFiles/civetweb-populate
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/CMakeFiles/civetweb-populate.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/CMakeFiles/civetweb-populate-complete.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-build.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-configure.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-download.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-install.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-mkdir.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-patch.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-test.rule
+/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-update.rule

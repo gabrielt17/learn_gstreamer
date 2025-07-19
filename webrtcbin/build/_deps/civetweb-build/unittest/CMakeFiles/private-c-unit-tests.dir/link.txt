@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc libprivate-c-unit-tests.a "CMakeFiles/private-c-unit-tests.dir/private.c.o"
+/usr/bin/gcc-ranlib libprivate-c-unit-tests.a

@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/gabrielt/Documentos/Códigos/learn_gstreamer/build",
+  "command": "/usr/bin/clang++ -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -I/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/_deps/nlohmann_json-src/include -g -std=gnu++17 -o CMakeFiles/sender.dir/src/sender.cpp.o -c /home/gabrielt/Documentos/Códigos/learn_gstreamer/webrtcbin/src/sender.cpp",
+  "file": "/home/gabrielt/Documentos/Códigos/learn_gstreamer/webrtcbin/src/sender.cpp",
+  "output": "CMakeFiles/sender.dir/src/sender.cpp.o"
+},
+{
+  "directory": "/home/gabrielt/Documentos/Códigos/learn_gstreamer/build",
+  "command": "/usr/bin/clang++ -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -I/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/_deps/nlohmann_json-src/include -g -std=gnu++17 -o CMakeFiles/receiver.dir/src/receiver.cpp.o -c /home/gabrielt/Documentos/Códigos/learn_gstreamer/webrtcbin/src/receiver.cpp",
+  "file": "/home/gabrielt/Documentos/Códigos/learn_gstreamer/webrtcbin/src/receiver.cpp",
+  "output": "CMakeFiles/receiver.dir/src/receiver.cpp.o"
+}
+]

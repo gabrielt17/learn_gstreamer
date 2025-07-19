@@ -11,19 +11,35 @@ ARG USER_UID=1000
 ARG USER_GID=1000
 ARG USERNAME=devuser
 
-# Instalação de dependências (sem alterações aqui)
+# Instalação de dependências
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    # Utilitários básicos e de compilação
     sudo git wget curl nano bash-completion build-essential cmake pkg-config gdb \
-    cppcheck valgrind gstreamer1.0-tools libgstreamer1.0-dev \
-    libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-good \
-    gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-vaapi mesa-va-drivers \
-    gstreamer1.0-gl libgtk-3-dev libx11-dev libwayland-dev x11-apps pipewire \
-    libspa-0.2-modules gstreamer1.0-pipewire \
-    # --- PACOTES PARA WEBRTCBIN ---
-    # NOVO: Pacote de runtime que contém o webrtcbin.so
+    cppcheck valgrind \
+    # PACOTES ADICIONADOS: Essenciais para rede segura (HTTPS/WSS)
+    ca-certificates \
+    libssl-dev \
+    \
+    # GStreamer Core e Plugins Essenciais
+    gstreamer1.0-tools libgstreamer1.0-dev \
+    libgstreamer-plugins-base1.0-dev \
+    gstreamer1.0-plugins-good \
     gstreamer1.0-plugins-bad \
-    # Pacote de desenvolvimento que contém os headers .h
+    gstreamer1.0-plugins-ugly \
+    gstreamer1.0-libav \
+    gstreamer1.0-nice \
+    \
+    # Dependências para Gráficos e Aceleração de Hardware
+    gstreamer1.0-gl \
+    gstreamer1.0-vaapi mesa-va-drivers \
+    libgtk-3-dev libx11-dev libwayland-dev x11-apps \
+    \
+    # Dependências para Áudio com PipeWire
+    pipewire libspa-0.2-modules gstreamer1.0-pipewire \
+    \
+    # --- Dependências Específicas e Verificadas para WebRTC ---
     libgstreamer-plugins-bad1.0-dev \
+    libnice-dev \
     libsrtp2-dev \
     libglib2.0-dev \
     && apt-get clean && rm -rf /var/lib/apt/lists/*

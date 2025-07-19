@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc libexe-c-unit-tests.a "CMakeFiles/exe-c-unit-tests.dir/private_exe.c.o"
+/usr/bin/gcc-ranlib libexe-c-unit-tests.a

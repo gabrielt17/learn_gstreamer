@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc libtimer-c-unit-tests.a "CMakeFiles/timer-c-unit-tests.dir/timertest.c.o"
+/usr/bin/gcc-ranlib libtimer-c-unit-tests.a

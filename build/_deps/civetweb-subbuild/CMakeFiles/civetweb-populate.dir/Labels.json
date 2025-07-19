@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/CMakeFiles/civetweb-populate"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/CMakeFiles/civetweb-populate.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/CMakeFiles/civetweb-populate-complete.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-build.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-configure.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-download.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-install.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-patch.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-test.rule"
+		},
+		{
+			"file" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/civetweb-subbuild/civetweb-populate-prefix/src/civetweb-populate-stamp/civetweb-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"civetweb-populate"
+		],
+		"name" : "civetweb-populate"
+	}
+}

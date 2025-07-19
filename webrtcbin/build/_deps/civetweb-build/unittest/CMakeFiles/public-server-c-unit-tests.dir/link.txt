@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc libpublic-server-c-unit-tests.a "CMakeFiles/public-server-c-unit-tests.dir/public_server.c.o"
+/usr/bin/gcc-ranlib libpublic-server-c-unit-tests.a

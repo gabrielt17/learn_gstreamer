@@ -11,9 +11,10 @@ services:
     # Remove o isolamento de rede e IPC (essencial para vídeo e áudio)
     network_mode: host
     ipc: host
+    privileged: true
     
     volumes:
-      - ..:/workspaces/meu-projeto:cached
+      - ..:/workspaces/learn_gstreamer:cached
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ${HOME}/.Xauthority:/home/devuser/.Xauthority:ro
       # NOVO: Monta o diretório de runtime do host, que contém o socket do PipeWire.
@@ -23,7 +24,7 @@ services:
     environment:
       # Força o uso do display REAL do host
       - DISPLAY=:1
-      
+      - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
       # NOVO: Passa as variáveis para o PipeWire saber onde se conectar
       # Diz a todas as aplicações onde encontrar os sockets (PipeWire, PulseAudio, etc.)
       - XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR}

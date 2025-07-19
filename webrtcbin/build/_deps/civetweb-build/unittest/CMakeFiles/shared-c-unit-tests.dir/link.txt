@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc libshared-c-unit-tests.a "CMakeFiles/shared-c-unit-tests.dir/shared.c.o"
+/usr/bin/gcc-ranlib libshared-c-unit-tests.a

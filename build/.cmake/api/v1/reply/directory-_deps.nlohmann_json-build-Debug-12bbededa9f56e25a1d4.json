@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/nlohmann_json-build",
+		"source" : "/home/gabrielt/Documentos/C\u00f3digos/learn_gstreamer/build/_deps/nlohmann_json-src"
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sender.dir/src/sender.cpp.o -o sender  -lgstwebrtc-1.0 -lgstbase-1.0 -lgstsdp-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 -lcivetweb 

@@ -1,0 +1,6 @@
+/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/CMakeFiles/sender.dir
+/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/CMakeFiles/receiver.dir
+/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/CMakeFiles/edit_cache.dir
+/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/CMakeFiles/rebuild_cache.dir
+/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/_deps/nlohmann_json-build/CMakeFiles/edit_cache.dir
+/home/gabrielt/Documentos/Códigos/learn_gstreamer/build/_deps/nlohmann_json-build/CMakeFiles/rebuild_cache.dir

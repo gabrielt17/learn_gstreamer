@@ -3,7 +3,7 @@
     "name": "GStreamer C++ (Ubuntu 24.04)",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
-    "workspaceFolder": "/workspaces/meu-projeto",
+    "workspaceFolder": "/workspaces/learn_gstreamer",
 
     
 
@@ -27,5 +27,5 @@
 
     // Executa um comando após a criação do contêiner.
     // Útil para configurar permissões ou outras tarefas iniciais.
-    "postCreateCommand": "sudo chown -R $(whoami) /workspaces/meu-projeto"
+    "postCreateCommand": "sudo chown -R $(whoami) /workspaces/learn_gstreamer"
 }

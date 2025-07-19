@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-build/unittest/CMakeFiles/check-unit-test-framework"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-build/unittest/CMakeFiles/check-unit-test-framework.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-build/unittest/CMakeFiles/check-unit-test-framework-complete.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-build.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-configure.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-download.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-install.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-patch.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/webrtcbin/build/third_party/src/check-unit-test-framework-stamp/check-unit-test-framework-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"check-unit-test-framework"
+		],
+		"name" : "check-unit-test-framework"
+	}
+}

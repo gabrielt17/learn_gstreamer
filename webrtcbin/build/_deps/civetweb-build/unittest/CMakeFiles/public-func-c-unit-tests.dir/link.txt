@@ -1,0 +1,2 @@
+/usr/bin/gcc-ar qc libpublic-func-c-unit-tests.a "CMakeFiles/public-func-c-unit-tests.dir/public_func.c.o"
+/usr/bin/gcc-ranlib libpublic-func-c-unit-tests.a
