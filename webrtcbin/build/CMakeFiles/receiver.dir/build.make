@@ -92,6 +92,7 @@ receiver_EXTERNAL_OBJECTS =
 
 receiver: CMakeFiles/receiver.dir/src/receiver.cpp.o
 receiver: CMakeFiles/receiver.dir/build.make
+receiver: _deps/civetweb-build/src/libcivetweb.a
 receiver: CMakeFiles/receiver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable receiver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/receiver.dir/link.txt --verbose=$(VERBOSE)

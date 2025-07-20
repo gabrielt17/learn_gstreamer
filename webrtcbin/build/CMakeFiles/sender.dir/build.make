@@ -92,6 +92,7 @@ sender_EXTERNAL_OBJECTS =
 
 sender: CMakeFiles/sender.dir/src/sender.cpp.o
 sender: CMakeFiles/sender.dir/build.make
+sender: _deps/civetweb-build/src/libcivetweb.a
 sender: CMakeFiles/sender.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sender"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sender.dir/link.txt --verbose=$(VERBOSE)

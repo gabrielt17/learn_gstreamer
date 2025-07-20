@@ -1,0 +1,17 @@
+[  7%] Built target compat
+[ 30%] Built target check
+[ 66%] Built target check_check
+[ 80%] Built target check_check_export
+[ 85%] Built target ex_output
+[ 90%] Built target check_nofork
+[ 95%] Built target check_nofork_teardown
+[100%] Built target check_set_max_msg_size
+[36mInstall the project...[0m
+-- Install configuration: "Debug"
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/include/check_stdint.h
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/lib/libcompat.a
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/include/libcompat.h
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/lib/libcheck.a
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/include/check.h
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/cmake/check.cmake
+-- Installing: /workspaces/learn_gstreamer/webrtcbin/build/third_party/cmake/check-debug.cmake

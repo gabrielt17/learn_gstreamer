@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/receiver.dir/src/receiver.cpp.o -o receiver  -lgstwebrtc-1.0 -lgstbase-1.0 -lgstsdp-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 -lcivetweb 
+/usr/bin/c++ CMakeFiles/receiver.dir/src/receiver.cpp.o -o receiver  -lgstwebrtc-1.0 -lgstbase-1.0 -lgstsdp-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 _deps/civetweb-build/src/libcivetweb.a -ldl 

@@ -193,7 +193,7 @@ _deps/nlohmann_json-build/clean:
 # Target rules for target CMakeFiles/sender.dir
 
 # All Build rule for target.
-CMakeFiles/sender.dir/all:
+CMakeFiles/sender.dir/all: _deps/civetweb-build/src/CMakeFiles/civetweb-c-library.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sender.dir/build.make CMakeFiles/sender.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles --progress-num=25,26 "Built target sender"
@@ -201,7 +201,7 @@ CMakeFiles/sender.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sender.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sender.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles 0
 .PHONY : CMakeFiles/sender.dir/rule
@@ -219,7 +219,7 @@ CMakeFiles/sender.dir/clean:
 # Target rules for target CMakeFiles/receiver.dir
 
 # All Build rule for target.
-CMakeFiles/receiver.dir/all:
+CMakeFiles/receiver.dir/all: _deps/civetweb-build/src/CMakeFiles/civetweb-c-library.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver.dir/build.make CMakeFiles/receiver.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles --progress-num=23,24 "Built target receiver"
@@ -227,7 +227,7 @@ CMakeFiles/receiver.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/receiver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/receiver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/learn_gstreamer/webrtcbin/build/CMakeFiles 0
 .PHONY : CMakeFiles/receiver.dir/rule

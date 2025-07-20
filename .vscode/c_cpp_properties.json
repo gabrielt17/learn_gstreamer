@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "/usr/include/gstreamer-1.0",
                 "/usr/include/glib-2.0",
-                "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/workspaces/learn_gstreamer/webrtcbin/build/_deps/nlohmann_json-src/include"
             ],
             "defines": [],
             "cStandard": "c17",

@@ -1,0 +1,50 @@
+[  2%] [32mBuilding C object lib/CMakeFiles/compat.dir/libcompat.c.o[0m
+[  4%] [32mBuilding C object lib/CMakeFiles/compat.dir/fpclassify.c.o[0m
+[  7%] [32m[1mLinking C static library libcompat.a[0m
+[  7%] Built target compat
+[  9%] [32mBuilding C object src/CMakeFiles/check.dir/check.c.o[0m
+[ 11%] [32mBuilding C object src/CMakeFiles/check.dir/check_error.c.o[0m
+[ 14%] [32mBuilding C object src/CMakeFiles/check.dir/check_list.c.o[0m
+[ 16%] [32mBuilding C object src/CMakeFiles/check.dir/check_log.c.o[0m
+[ 19%] [32mBuilding C object src/CMakeFiles/check.dir/check_msg.c.o[0m
+[ 21%] [32mBuilding C object src/CMakeFiles/check.dir/check_pack.c.o[0m
+[ 23%] [32mBuilding C object src/CMakeFiles/check.dir/check_print.c.o[0m
+[ 26%] [32mBuilding C object src/CMakeFiles/check.dir/check_run.c.o[0m
+[ 28%] [32mBuilding C object src/CMakeFiles/check.dir/check_str.c.o[0m
+[ 30%] [32m[1mLinking C static library libcheck.a[0m
+[ 30%] Built target check
+[ 33%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_exit.c.o[0m
+[ 35%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_fixture.c.o[0m
+[ 38%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_fork.c.o[0m
+[ 40%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_limit.c.o[0m
+[ 42%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_log.c.o[0m
+[ 45%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_log_internal.c.o[0m
+[ 47%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_main.c.o[0m
+[ 50%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_master.c.o[0m
+[ 52%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_msg.c.o[0m
+[ 54%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_pack.c.o[0m
+[ 57%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_selective.c.o[0m
+[ 59%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_sub.c.o[0m
+[ 61%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_check_tags.c.o[0m
+[ 64%] [32mBuilding C object tests/CMakeFiles/check_check.dir/check_list.c.o[0m
+[ 66%] [32m[1mLinking C executable check_check[0m
+[ 66%] Built target check_check
+[ 69%] [32mBuilding C object tests/CMakeFiles/check_check_export.dir/check_check_sub.c.o[0m
+[ 71%] [32mBuilding C object tests/CMakeFiles/check_check_export.dir/check_check_master.c.o[0m
+[ 73%] [32mBuilding C object tests/CMakeFiles/check_check_export.dir/check_check_log.c.o[0m
+[ 76%] [32mBuilding C object tests/CMakeFiles/check_check_export.dir/check_check_fork.c.o[0m
+[ 78%] [32mBuilding C object tests/CMakeFiles/check_check_export.dir/check_check_export_main.c.o[0m
+[ 80%] [32m[1mLinking C executable check_check_export[0m
+[ 80%] Built target check_check_export
+[ 83%] [32mBuilding C object tests/CMakeFiles/ex_output.dir/ex_output.c.o[0m
+[ 85%] [32m[1mLinking C executable ex_output[0m
+[ 85%] Built target ex_output
+[ 88%] [32mBuilding C object tests/CMakeFiles/check_nofork.dir/check_nofork.c.o[0m
+[ 90%] [32m[1mLinking C executable check_nofork[0m
+[ 90%] Built target check_nofork
+[ 92%] [32mBuilding C object tests/CMakeFiles/check_nofork_teardown.dir/check_nofork_teardown.c.o[0m
+[ 95%] [32m[1mLinking C executable check_nofork_teardown[0m
+[ 95%] Built target check_nofork_teardown
+[ 97%] [32mBuilding C object tests/CMakeFiles/check_set_max_msg_size.dir/check_set_max_msg_size.c.o[0m
+[100%] [32m[1mLinking C executable check_set_max_msg_size[0m
+[100%] Built target check_set_max_msg_size

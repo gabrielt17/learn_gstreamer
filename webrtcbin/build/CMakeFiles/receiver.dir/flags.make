@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/orc-0.4 -I/usr/include/libmount -I/usr/include/blkid -I/workspaces/learn_gstreamer/webrtcbin/build/_deps/nlohmann_json-src/include
+CXX_INCLUDES = -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/orc-0.4 -I/usr/include/libmount -I/usr/include/blkid -I/workspaces/learn_gstreamer/webrtcbin/build/_deps/nlohmann_json-src/include -I/workspaces/learn_gstreamer/webrtcbin/build/_deps/civetweb-src/include
 
 CXX_FLAGS = -std=gnu++17
 
