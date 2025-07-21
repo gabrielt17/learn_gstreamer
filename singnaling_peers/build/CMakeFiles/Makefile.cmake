@@ -129,6 +129,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "_deps/ixwebsocket-src/CMakeLists.txt"
   "_deps/ixwebsocket-src/ixwebsocket-config.cmake.in"
+  "_deps/ixwebsocket-src/ixwebsocket.pc.in"
   "_deps/nlohmann_json-src/CMakeLists.txt"
   "_deps/nlohmann_json-src/cmake/config.cmake.in"
   "_deps/nlohmann_json-src/cmake/nlohmann_jsonConfigVersion.cmake.in"
@@ -155,7 +156,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/nlohmann_json-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
-  "ixwebsocket-config.cmake"
+  "_deps/ixwebsocket-build/ixwebsocket-config.cmake"
+  "_deps/ixwebsocket-build/ixwebsocket.pc"
   "_deps/ixwebsocket-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

@@ -41,12 +41,12 @@ endif()
 
 execute_process(
   COMMAND "/usr/bin/git"
-          checkout "v11.4.3" --
+          checkout "v11.4.6" --
   WORKING_DIRECTORY "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: 'v11.4.3'")
+  message(FATAL_ERROR "Failed to checkout tag: 'v11.4.6'")
 endif()
 
 set(init_submodules TRUE)

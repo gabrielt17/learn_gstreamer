@@ -30,7 +30,7 @@ FetchContent_MakeAvailable(nlohmann_json)
 
 # ixwebsocket (substitui cpp-httplib)
 FetchContent_Declare(
-  ixwebsocket GIT_REPOSITORY https://github.com/machinezone/IXWebSocket.git GIT_TAG v11.4.3
+  ixwebsocket GIT_REPOSITORY https://github.com/machinezone/IXWebSocket.git GIT_TAG v11.4.6
 )
 FetchContent_MakeAvailable(ixwebsocket)
 

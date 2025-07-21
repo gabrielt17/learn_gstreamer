@@ -27,7 +27,7 @@ async def handle_websocket(websocket):
 
         clients[client_id] = websocket
         async for data in websocket:
-            print(f"Client {client_id} has sent {data}")
+            print(f"Client {client_id} has sent {data}.")
             message = json.loads(data)
             destination_id = message["id"]
             destination_ws = clients.get(destination_id)
@@ -39,10 +39,10 @@ async def handle_websocket(websocket):
                     print(f"Client {destination_id} was directed {data}.")
                 else:
                     del clients[destination_id]
-                    print(f"Removed dead client {destination_id}")
+                    print(f"Removed dead client {destination_id}.")
                 
             else:
-                print(f"Client {destination_id} not found")
+                print(f"Client {destination_id} not found.")
 
     except Exception as e:
         print("Connection error:", e, ".")
@@ -50,10 +50,10 @@ async def handle_websocket(websocket):
     finally:
         if client_id and client_id in clients:
             del clients[client_id]
-            print(f"Client {client_id} disconnected")
+            print(f"Client {client_id} disconnected.")
 
 async def main():
-    endpoint = "0.0.0.0"
+    endpoint = "192.168.0.159"
     port = 8000
     print(f"Listening on {endpoint}:{port}")
     server = await websockets.serve(handle_websocket, endpoint, port)

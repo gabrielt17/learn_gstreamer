@@ -27,7 +27,7 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(ixwebsocket-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/machinezone/IXWebSocket.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v11.4.3"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/machinezone/IXWebSocket.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v11.4.6"
                     SOURCE_DIR          "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-src"
                     BINARY_DIR          "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-build"
                     CONFIGURE_COMMAND   ""
