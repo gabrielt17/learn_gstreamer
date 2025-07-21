@@ -16,7 +16,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     # Utilitários básicos e de compilação
     sudo git wget curl nano bash-completion build-essential cmake pkg-config gdb \
     cppcheck valgrind \
-    # PACOTES ADICIONADOS: Essenciais para rede segura (HTTPS/WSS)
+    \
+    # PACOTES PARA O SERVIDOR DE SINALIZAÇÃO PYTHON
+    python3 python3-pip \
+    \
+    # PACOTES Essenciais para rede segura (HTTPS/WSS para cpp-httplib)
     ca-certificates \
     libssl-dev \
     \
@@ -42,6 +46,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libnice-dev \
     libsrtp2-dev \
     libglib2.0-dev \
+    \
+    # Bibliotecas do python para sinalização
+    python3-websockets \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Script inteligente para criar ou modificar o usuário e grupo
@@ -59,7 +66,7 @@ RUN groupadd --gid 985 dri && groupadd --gid 989 render && \
 USER ${USERNAME}
 
 # Define o diretório de trabalho
-WORKDIR /workspaces/meu-projeto
+WORKDIR /workspaces/learn_gstreamer
 
 # Comando padrão para manter o contêiner rodando
 CMD ["/bin/bash"]

@@ -1,0 +1,14 @@
+# Target labels
+ nlohmann_json-populate
+# Source files and their labels
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/CMakeFiles/nlohmann_json-populate-complete.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-build.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-configure.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-download.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-install.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-mkdir.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-patch.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-test.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/nlohmann_json-subbuild/nlohmann_json-populate-prefix/src/nlohmann_json-populate-stamp/nlohmann_json-populate-update.rule

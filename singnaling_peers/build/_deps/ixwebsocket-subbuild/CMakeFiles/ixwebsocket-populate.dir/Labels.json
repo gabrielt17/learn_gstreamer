@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate-complete.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-test.rule"
+		},
+		{
+			"file" : "/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ixwebsocket-populate"
+		],
+		"name" : "ixwebsocket-populate"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ ixwebsocket-populate
+# Source files and their labels
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/CMakeFiles/ixwebsocket-populate-complete.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-build.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-configure.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-download.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-install.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-mkdir.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-patch.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-test.rule
+/workspaces/learn_gstreamer/singnaling_peers/build/_deps/ixwebsocket-subbuild/ixwebsocket-populate-prefix/src/ixwebsocket-populate-stamp/ixwebsocket-populate-update.rule

@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/workspaces/learn_gstreamer/webrtcbin"
+    "cmake.sourceDirectory": "/home/gabrielt/Documentos/Códigos/learn_gstreamer/singnaling_peers",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc"
 }

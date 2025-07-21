@@ -18,7 +18,9 @@
                 "ms-vscode.cpptools-extension-pack",
                 "ms-vscode.cmake-tools",
                 "ms-azuretools.vscode-docker",
-                "mutantdino.resourcemonitor"
+                "mutantdino.resourcemonitor",
+                "ms-python.python",
+                "KevinRose.vsc-python-indent"
             ]
         }
     },
