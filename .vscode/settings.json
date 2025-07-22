@@ -1,4 +1,4 @@
 {
-    "cmake.sourceDirectory": "/workspaces/learn_gstreamer/singnaling_peers",
+    "cmake.sourceDirectory": "/workspaces/learn_gstreamer/signaling_peers",
     "C_Cpp.default.compilerPath": "/usr/bin/gcc"
 }
